@@ -1,0 +1,38 @@
+.header {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .map {
+    background-image: url('/src/image/carta.jpg');
+    height: 400px;
+    background-size: cover;
+    width: 700px;
+    margin-left: 30%;
+  }
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .contact-block {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  .contact-form {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  .send-button {
+    background-color: #ffa500;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }

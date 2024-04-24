@@ -1,0 +1,83 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px;
+}
+
+.category-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.category-item {
+  width: 32%;
+  text-align: center;
+  border: 1px solid #000; /* Граница вокруг каждого блока категории */
+}
+
+.category-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.category-item p {
+  background-color: #fff;
+  margin: 0; /* Убираем стандартные отступы */
+  padding: 10px;
+  border-top: 1px solid #000; /* Линия между изображением и текстом */
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f3f3; /* Светло-серый фон для информационных блоков */
+  padding: 20px;
+  border-radius: 10px; /* Скругленные углы */
+}
+
+.info-section div {
+  width: 48%;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb; 
+}
+.brands-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.brands-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.brand-item {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Тень для карточек */
+  transition: transform 0.3s ease-in-out;
+}
+
+.brand-item img {
+  max-width: 100px; /* Ограничение размера логотипа */
+  height: auto;
+}
+
+.brand-item:hover {
+  transform: scale(1.05); /* Эффект при наведении на карточку */
+}
+

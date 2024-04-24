@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0px;
+    height: 100%;
+  }
+ .container-catalog {
+  padding: 60px;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  .product {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+  .product h3 {
+    font-size: 1.2em;
+    color: #333;
+  }
+  .product .price {
+    font-size: 1.5em;
+    color: #e44d26;
+  }
+  .product .buy-button {
+    background: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .product .buy-button:hover {
+    background: #4cae4c;
+  }
+  
+  .sidebar {
+    background: #0086fa;
+    color: #ecf0f1;
+    padding: 20px;
+    width: 250px;
+    height: 66%;
+    position: absolute;
+  }
+  .filter-section {
+    margin-bottom: 20px;
+  }
+  .filter-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  .price-slider {
+    display: flex;
+    justify-content: space-between;
+  }
+  .price-slider input[type="range"] {
+    width: 100%;
+    margin: 8px 0;
+  }
+  .price-slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #1abc9c;
+    cursor: pointer;
+  }
+  .price-slider input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #1abc9c;
+    cursor: pointer;
+  }
+  .price-slider input[type="number"] {
+    background: none;
+    border: none;
+    color: #ecf0f1;
+    width: 50px;
+  }
+  .filter-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  .filter-section ul li {
+    margin-bottom: 5px;
+  }
+  .filter-section label {
+    cursor: pointer;
+  }
+  .filter-section input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  .buy-button{
+    margin-left: 10px;
+  }
